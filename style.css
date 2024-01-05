@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: rgb(152, 111, 248);
+  width: 100%;
+}
+
+nav {
+  margin: 0px auto;
+  padding: 10px;
+}
+
+ul {
+  margin: 0px auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  border: 2px solid violet;
+  border-radius: 50px;
+}
+
+li {
+  padding: 20px;
+  border-radius: 50px;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: violet;
+  color: rgb(0, 0, 0);
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Lilita One', cursive;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+main {
+  font-family: 'Montserrat';
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20rem;
+  height: 28rem;
+  background-color: rgb(152, 111, 248);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  transform: scale(1.05);
+}
+
+i {
+  font-size: 90px;
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  font-family: 'Lilita One', cursive;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  width: 80%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 50px;
+  background-color: violet;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+.read-more:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+#insta {
+  background-color: hotpink;
+  color: white;
+}
+
+#insta> i, #insta > h2, #insta > p {
+  color: white;
+}
+
+#insta > .read-more {
+  background-color: white;
+  color: hotpink;
+} 
